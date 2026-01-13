@@ -24,6 +24,7 @@ public class LinearInterpolation : MonoBehaviour
 
         }
 
+
         transform.position = Vector2.Lerp(start.position, end.position, curve.Evaluate(t));
         
 
