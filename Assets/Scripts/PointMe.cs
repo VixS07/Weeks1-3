@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class PointMe : MonoBehaviour
 {
@@ -12,8 +13,12 @@ public class PointMe : MonoBehaviour
     void Update()
     {
         //get the mouse positon
+        Vector2 mousePos = Camera.main.ScreenToWorldPoint(Mouse.current.position.ReadValue());
 
         //work out the direction betweem our position and the mouse position
+        Vector2 direction = mousePos - (Vector2)transform.position;
+
         //set our transform.up direction to equal that
+        transform.up = direction;
     }
 }
