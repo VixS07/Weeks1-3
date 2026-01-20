@@ -288,6 +288,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spriteRenderer: {fileID: 1300560134}
   col: {r: 0.33956575, g: 0.11792453, b: 0.4716981, a: 1}
+  barrels:
+  - {fileID: -983296130339864622, guid: f1d519290bc49d94dabd1833470c3eb4, type: 3}
+  - {fileID: 21300000, guid: ba1465d76b4ab36479be571a02014572, type: 3}
+  - {fileID: 21300000, guid: f2b18bb81cbb22b4f87ef83e71631c6f, type: 3}
+  randomNumber: 0
 --- !u!212 &1300560134
 SpriteRenderer:
   m_ObjectHideFlags: 0
