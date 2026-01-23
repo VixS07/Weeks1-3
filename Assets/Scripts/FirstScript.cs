@@ -11,7 +11,7 @@ public class FirstScript : MonoBehaviour
     void Start()
     {
         //speed = Random.Range(0.01f, 0.1f);
-        transform.position = (Vector2)transform.position + Random.insideUnitCircle * 2 ;
+        transform.position = (Vector2)transform.position;
 
         bottomLeft = Camera.main.ScreenToWorldPoint(Vector2.zero);
         topRight = Camera.main.ScreenToWorldPoint(new Vector2(Screen.width, Screen.height));
