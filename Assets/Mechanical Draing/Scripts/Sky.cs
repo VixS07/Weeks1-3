@@ -16,9 +16,11 @@ public class Sky : MonoBehaviour
         //scale the sky colour based on the screen size
         Vector2 newSize = transform.localScale;
 
+        //make it dependent on the height and width
         newSize.x = Screen.width;
         newSize.y = Screen.height;
 
+        //update scale
         transform.localScale = newSize;
     }
 }

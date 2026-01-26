@@ -15,7 +15,7 @@ public class Tester : MonoBehaviour
     void Update()
     {
         //this script was used to test out different things because the bat stopped its flapping when i started using the mouse pos
-        //this script is not actually on any objects, it was simply used for debugging purposess
+        //this script is not actually on any objects, it was simply used for debugging and testing purposess
 
         t += Time.deltaTime;
 

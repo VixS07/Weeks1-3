@@ -41,8 +41,10 @@ public class Flap : MonoBehaviour
         
         if (up)
         {
+            //move the ssprite off screen
             newPos.y += 20;
         } else if (!up){
+            //move the sprite on screen
             newPos.y += 1;
         }
 
