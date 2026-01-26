@@ -19,7 +19,7 @@ public class FrontTree : MonoBehaviour
     void Update()
     {
         t += Time.deltaTime;
-        if (t > 4)
+        if (t > 6)
         {
             t = 0;
 
