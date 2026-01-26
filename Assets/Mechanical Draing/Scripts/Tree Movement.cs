@@ -2,12 +2,13 @@ using System.Security.Cryptography;
 using Unity.VisualScripting;
 using UnityEngine;
 
-public class FrontTree : MonoBehaviour
+public class TreeMovement : MonoBehaviour
 {
     public Transform start;
     public Transform end;
     public float t;
     public AnimationCurve curve;
+    public int seconds;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -22,7 +23,7 @@ public class FrontTree : MonoBehaviour
         t += Time.deltaTime;
 
         //when we hit 6 seconds, reset timer
-        if (t > 6)
+        if (t > seconds)
         {
             t = 0;
 

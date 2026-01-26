@@ -34,7 +34,7 @@ public class Twinkle : MonoBehaviour
             //change the position to a random area within the screen
             //im doing unit circle because im not sure how to combine random with world screen position
             //if it works it works :')
-            newPos = Random.insideUnitCircle * 10;
+            newPos = Random.insideUnitCircle * topRight.x;
 
             //I was going to do this but I think we did something like this in class week 3 and I dont want to risk it lol
 
