@@ -23,14 +23,15 @@ public class Flap : MonoBehaviour
         //set the mouse position as the new position (allows us to edit the pos of the sprite relative to the mouse)
         Vector2 newPos = mousePos;
 
-        //if t is more than 0 and up (meaning the sprite where the wings are flapped up) is true, move the sprite off screen
+        //if t is more than 0 and up (meaning the sprite where the wings are flapped up) is true
+        //reset the timer
         if (t > 0.3 && up) 
         { 
             t = 0;
             up = false;
         }
         //if the current sprite is the wings down one, move it back to the original position
-        //thiss worrks because we start the sprite with the wing flapped down
+        //this works because we start the sprite with the wing flapped down
         else if (t > 0.3)
         {
             t = 0;
