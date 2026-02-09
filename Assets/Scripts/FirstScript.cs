@@ -3,6 +3,7 @@ using UnityEngine;
 public class FirstScript : MonoBehaviour
 {
     public float speed = 1f;
+    //public SpriteRenderer body;
 
     Vector2 bottomLeft;
     Vector2 topRight;
@@ -15,6 +16,7 @@ public class FirstScript : MonoBehaviour
 
         bottomLeft = Camera.main.ScreenToWorldPoint(Vector2.zero);
         topRight = Camera.main.ScreenToWorldPoint(new Vector2(Screen.width, Screen.height));
+
     }
 
     // Update is called once per frame

@@ -135,6 +135,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 4
+  body: {fileID: 2804470401026533709}
 --- !u!1 &2968552225476160681
 GameObject:
   m_ObjectHideFlags: 0
@@ -299,7 +300,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 1
   m_Sprite: {fileID: -1300542943886331552, guid: 7438fe7e13cdbbd469268ebbf97ce37b, type: 3}
-  m_Color: {r: 0.32152385, g: 0.20265219, b: 0.4339623, a: 1}
+  m_Color: {r: 0.2973618, g: 0.19886972, b: 0.38679248, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
